@@ -9,3 +9,16 @@ if feeling == 'GREAT':
     print ('am feeling great')
 else:
         print(('am not feeling great'))
+while True:
+    print ('Enter your age')
+    age = input()
+    if age.isdecimal():
+        break
+    print('please enter a number for your age')
+ 
+while True:
+     print('select a new password')
+     password = input()
+     if password.isalnum():
+         break
+     print(' password should be a number or letter')
