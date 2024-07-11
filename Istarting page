@@ -1,0 +1,11 @@
+Index file 
+name = "solomon"
+age = 4000
+print (f'my name is {name.upper()} and will be {age+1}')
+
+print ('how are you')
+feeling = input().upper()
+if feeling == 'GREAT':
+    print ('am feeling great')
+else:
+        print(('am not feeling great'))
